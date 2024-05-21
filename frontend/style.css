@@ -1,0 +1,43 @@
+body{
+margin: 0;
+}
+main{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-areas: 'h h h'
+                         'n n n'
+                         'a a a';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h1{
+    grid-area: h;
+}
+nav{
+    grid-area: n;
+}
+article{
+    grid-area: a;
+    border-radius: 1px solid black;
+    display: grid;
+    grid-template-areas: 's s s'
+                         'c1 c2 c3'
+                         'an val viss'
+                         'an val viss';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.valaszto{
+    grid-area: s;
+}
+.cim1{
+    grid-area: c1;
+}
+
+.cim2{
+    grid-area: c2;
+}
+.cim3{
+    grid-area: c3;
+}
+

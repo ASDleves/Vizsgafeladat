@@ -1,0 +1,35 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Vizsgafeladat",
+    "collectionId": "b4f43e4d-9878-4c39-8cbe-7fbcbcff3a2f",
+    "dateExported": "2024-05-21T15:57:28.656Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "19bca12c-a389-4cf3-b7d8-b76dcc5affc2",
+            "colId": "b4f43e4d-9878-4c39-8cbe-7fbcbcff3a2f",
+            "containerId": "",
+            "name": "szavak lekérése",
+            "url": "http://localhost:8000/api/szavak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T15:33:43.080Z",
+            "modified": "2024-05-21T15:33:53.562Z",
+            "headers": []
+        },
+        {
+            "_id": "6fc95dca-65b5-47fc-aa3d-7d95a2ddaf62",
+            "colId": "b4f43e4d-9878-4c39-8cbe-7fbcbcff3a2f",
+            "containerId": "",
+            "name": "Témák lekérése",
+            "url": "http://localhost:8000/api/tema",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T15:33:59.728Z",
+            "modified": "2024-05-21T15:34:10.680Z",
+            "headers": []
+        }
+    ],
+    "ref": "CqiBofw8b67qAbMI5MHg_gy6SGav-IlpEXI_GZeiNH7b8crrUgrhcjLjPz8XMiazGgVlcwTGrtRLHWuJp32POQ"
+}
